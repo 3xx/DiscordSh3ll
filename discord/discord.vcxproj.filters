@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Discord">
+      <UniqueIdentifier>{4035be3d-064a-4364-a0bd-2691dc188b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\source">
+      <UniqueIdentifier>{c441de6d-ab7c-4388-870e-6a9a7e6035a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\include">
+      <UniqueIdentifier>{6d358fca-3e72-4c78-92f2-79e91ab147f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\sdk">
+      <UniqueIdentifier>{5cc07e05-3c57-42f4-86e9-320969a5c61b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Discord\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\src\connection_win.cpp">
+      <Filter>Discord\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\src\discord_register_win.cpp">
+      <Filter>Discord\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\src\discord_rpc.cpp">
+      <Filter>Discord\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\src\dllmain.cpp">
+      <Filter>Discord\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\src\rpc_connection.cpp">
+      <Filter>Discord\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\src\serialization.cpp">
+      <Filter>Discord\sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Discord\source</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\include\discord_register.h">
+      <Filter>Discord\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\include\discord_rpc.h">
+      <Filter>Discord\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\src\backoff.h">
+      <Filter>Discord\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\src\connection.h">
+      <Filter>Discord\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\src\msg_queue.h">
+      <Filter>Discord\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\src\rpc_connection.h">
+      <Filter>Discord\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\src\serialization.h">
+      <Filter>Discord\sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
